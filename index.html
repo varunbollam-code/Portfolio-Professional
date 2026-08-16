@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varun Bollam | ServiceNow Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              900: '#14532d',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-black">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#hero" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="w-3 h-3 rounded-full bg-brand-500 animate-pulse"></span>
+        Varun<span class="text-brand-500">.dev</span>
+      </a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-brand-500 transition">About</a>
+        <a href="#skills" class="hover:text-brand-500 transition">Skills</a>
+        <a href="#experience" class="hover:text-brand-500 transition">Experience</a>
+        <a href="#projects" class="hover:text-brand-500 transition">Projects</a>
+        <a href="#certifications" class="hover:text-brand-500 transition">Certifications</a>
+      </div>
+      <a href="mailto:varunbollam6@gmail.com" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider bg-brand-500 text-slate-950 rounded-lg hover:bg-brand-600 transition">
+        Hire Me
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="pt-36 pb-20 px-6 max-w-6xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-900/40 border border-brand-500/30 text-brand-500 text-xs font-medium mb-6">
+      <i class="fa-solid fa-certificate"></i> Certified Application Developer (CAD) & CSA
+    </div>
+    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6">
+      Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-emerald-300">Varun Bollam</span>.<br />
+      ServiceNow Platform Developer.
+    </h1>
+    <p class="text-lg md:text-xl text-slate-400 max-w-2xl mb-8 leading-relaxed">
+      Specializing in ITSM workflow automation, custom Script Includes, Business Rules, Transform Maps, and enterprise integrations to scale business processes.
+    </p>
+    <div class="flex flex-wrap gap-4">
+      <a href="#experience" class="px-6 py-3 bg-brand-500 text-slate-950 font-semibold rounded-lg hover:bg-brand-600 transition flex items-center gap-2">
+        View Experience <i class="fa-solid fa-arrow-down text-sm"></i>
+      </a>
+      <a href="mailto:varunbollam6@gmail.com" class="px-6 py-3 bg-slate-900 border border-slate-800 text-slate-200 font-semibold rounded-lg hover:bg-slate-800 transition flex items-center gap-2">
+        <i class="fa-solid fa-envelope"></i> Contact Me
+      </a>
+    </div>
+  </section>
+
+  <!-- Skills Grid -->
+  <section id="skills" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-900">
+    <h2 class="text-2xl md:text-3xl font-bold mb-8">Technical Expertise</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
+        <div class="w-10 h-10 rounded-lg bg-brand-900/40 text-brand-500 flex items-center justify-center mb-4 text-xl">
+          <i class="fa-solid fa-network-wired"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-3">ServiceNow Core & ITIL</h3>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">ITSM</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">CMDB</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Service Catalog</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Incident & Change</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">ACLs & Security</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Transform Maps</span>
+        </div>
+      </div>
+
+      <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
+        <div class="w-10 h-10 rounded-lg bg-brand-900/40 text-brand-500 flex items-center justify-center mb-4 text-xl">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-3">Scripting & Logic</h3>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Business Rules</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Client Scripts</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Script Includes</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">GlideAjax</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">UI Actions & Policies</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
+        <div class="w-10 h-10 rounded-lg bg-brand-900/40 text-brand-500 flex items-center justify-center mb-4 text-xl">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-3">Tools & Programming</h3>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">SQL</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Python</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Java</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Tableau</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">PySpark</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300">Hadoop / Hive</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-900">
+    <h2 class="text-2xl md:text-3xl font-bold mb-8">Work History</h2>
+    <div class="space-y-8">
+
+      <div class="relative pl-6 border-l-2 border-brand-500">
+        <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-brand-500"></div>
+        <div class="flex flex-wrap justify-between items-baseline mb-2">
+          <h3 class="text-xl font-bold text-white">ServiceNow Developer</h3>
+          <span class="text-xs font-mono text-brand-500 bg-brand-950 px-2 py-1 rounded border border-brand-800">Apr 2025 – Feb 2026</span>
+        </div>
+        <p class="text-sm font-semibold text-slate-400 mb-4">Tata Consultancy Services • Hyderabad, India</p>
+        <ul class="space-y-2 text-sm text-slate-300 list-disc list-inside">
+          <li>Automated end-to-end ITIL workflows for Service Catalog, Incident, Knowledge, and Change Management.</li>
+          <li>Engineered custom server-side and client-side scripts including Business Rules, Script Includes, and UI Pages.</li>
+          <li>Built identity access workflows synchronizing third-party identity tools (Saviynt) into the ServiceNow User table using Transform Maps.</li>
+          <li>Enforced granular role-based security policies and CRUD access across multiple tables using custom ACLs.</li>
+        </ul>
+      </div>
+
+      <div class="relative pl-6 border-l-2 border-slate-800">
+        <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-slate-700"></div>
+        <div class="flex flex-wrap justify-between items-baseline mb-2">
+          <h3 class="text-xl font-bold text-white">Summer Intern (DSA & Problem Solving)</h3>
+          <span class="text-xs font-mono text-slate-400 bg-slate-900 px-2 py-1 rounded">Apr 2022 – Jul 2022</span>
+        </div>
+        <p class="text-sm font-semibold text-slate-400 mb-4">GeeksforGeeks • Phagwara, Punjab</p>
+        <ul class="space-y-2 text-sm text-slate-300 list-disc list-inside">
+          <li>Implemented searching, sorting, and recursion algorithms with optimal space/time complexities.</li>
+          <li>Constructed core linear and non-linear data structures including Linked Lists, Trees, Stacks, and Queues.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects & Certifications -->
+  <section id="projects" class="py-16 px-6 max-w-6xl mx-auto border-t border-slate-900">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      
+      <div>
+        <h2 class="text-2xl font-bold mb-6">Key Projects</h2>
+        <div class="space-y-4">
+          <div class="p-5 rounded-xl bg-slate-900/50 border border-slate-800">
+            <h3 class="text-lg font-semibold text-white mb-1">Audio to Sign Language using NLP</h3>
+            <p class="text-xs text-brand-500 font-mono mb-2">Python • NLP • 3D Animation</p>
+            <p class="text-sm text-slate-400">Transforms spoken voice into Indian Sign Language (ISL) gestures rendered on dynamic 3D avatars for accessibility.</p>
+          </div>
+          <div class="p-5 rounded-xl bg-slate-900/50 border border-slate-800">
+            <h3 class="text-lg font-semibold text-white mb-1">Netflix Content Analytics Dashboard</h3>
+            <p class="text-xs text-brand-500 font-mono mb-2">Microsoft Excel • Data Visualization</p>
+            <p class="text-sm text-slate-400">Analyzed international catalog distribution, genre preferences, and release timeline patterns to extract audience insights.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="certifications">
+        <h2 class="text-2xl font-bold mb-6">Certifications & Education</h2>
+        <div class="space-y-4">
+          <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800 flex items-center justify-between">
+            <div>
+              <p class="font-semibold text-white">Certified Application Developer (CAD)</p>
+              <p class="text-xs text-slate-400">ServiceNow</p>
+            </div>
+            <span class="text-brand-500 text-lg"><i class="fa-solid fa-circle-check"></i></span>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800 flex items-center justify-between">
+            <div>
+              <p class="font-semibold text-white">Certified System Administrator (CSA)</p>
+              <p class="text-xs text-slate-400">ServiceNow</p>
+            </div>
+            <span class="text-brand-500 text-lg"><i class="fa-solid fa-circle-check"></i></span>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+            <p class="font-semibold text-white">B.Tech in Computer Science & Engineering</p>
+            <p class="text-xs text-slate-400">Lovely Professional University (2020 – 2024) • CGPA: 7.26</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-900 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p>© 2026 Varun Bollam. Built for high-performance recruitment review.</p>
+      <div class="flex gap-6 text-base text-slate-400">
+        <a href="mailto:varunbollam6@gmail.com" class="hover:text-white"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/varunbollam" class="hover:text-white"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/varunbollam" class="hover:text-white"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
